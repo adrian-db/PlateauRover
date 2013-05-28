@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBED8F711755042F001AB263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBED8F701755042F001AB263 /* Foundation.framework */; };
+		EBED8F741755042F001AB263 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED8F731755042F001AB263 /* main.m */; };
+		EBED8F781755042F001AB263 /* PlateauRovers.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBED8F771755042F001AB263 /* PlateauRovers.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EBED8F6B1755042F001AB263 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EBED8F781755042F001AB263 /* PlateauRovers.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EBED8F6D1755042F001AB263 /* PlateauRovers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PlateauRovers; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBED8F701755042F001AB263 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBED8F731755042F001AB263 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBED8F761755042F001AB263 /* PlateauRovers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlateauRovers-Prefix.pch"; sourceTree = "<group>"; };
+		EBED8F771755042F001AB263 /* PlateauRovers.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PlateauRovers.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBED8F6A1755042F001AB263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBED8F711755042F001AB263 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBED8F641755042F001AB263 = {
+			isa = PBXGroup;
+			children = (
+				EBED8F721755042F001AB263 /* PlateauRovers */,
+				EBED8F6F1755042F001AB263 /* Frameworks */,
+				EBED8F6E1755042F001AB263 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBED8F6E1755042F001AB263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBED8F6D1755042F001AB263 /* PlateauRovers */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBED8F6F1755042F001AB263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBED8F701755042F001AB263 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBED8F721755042F001AB263 /* PlateauRovers */ = {
+			isa = PBXGroup;
+			children = (
+				EBED8F731755042F001AB263 /* main.m */,
+				EBED8F771755042F001AB263 /* PlateauRovers.1 */,
+				EBED8F751755042F001AB263 /* Supporting Files */,
+			);
+			path = PlateauRovers;
+			sourceTree = "<group>";
+		};
+		EBED8F751755042F001AB263 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBED8F761755042F001AB263 /* PlateauRovers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBED8F6C1755042F001AB263 /* PlateauRovers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBED8F7B1755042F001AB263 /* Build configuration list for PBXNativeTarget "PlateauRovers" */;
+			buildPhases = (
+				EBED8F691755042F001AB263 /* Sources */,
+				EBED8F6A1755042F001AB263 /* Frameworks */,
+				EBED8F6B1755042F001AB263 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlateauRovers;
+			productName = PlateauRovers;
+			productReference = EBED8F6D1755042F001AB263 /* PlateauRovers */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBED8F651755042F001AB263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Adrian Bigland";
+			};
+			buildConfigurationList = EBED8F681755042F001AB263 /* Build configuration list for PBXProject "PlateauRovers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBED8F641755042F001AB263;
+			productRefGroup = EBED8F6E1755042F001AB263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBED8F6C1755042F001AB263 /* PlateauRovers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBED8F691755042F001AB263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBED8F741755042F001AB263 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EBED8F791755042F001AB263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EBED8F7A1755042F001AB263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EBED8F7C1755042F001AB263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlateauRovers/PlateauRovers-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBED8F7D1755042F001AB263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlateauRovers/PlateauRovers-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBED8F681755042F001AB263 /* Build configuration list for PBXProject "PlateauRovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBED8F791755042F001AB263 /* Debug */,
+				EBED8F7A1755042F001AB263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBED8F7B1755042F001AB263 /* Build configuration list for PBXNativeTarget "PlateauRovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBED8F7C1755042F001AB263 /* Debug */,
+				EBED8F7D1755042F001AB263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBED8F651755042F001AB263 /* Project object */;
+}
