@@ -10,7 +10,29 @@
 		EBED8F711755042F001AB263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBED8F701755042F001AB263 /* Foundation.framework */; };
 		EBED8F741755042F001AB263 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED8F731755042F001AB263 /* main.m */; };
 		EBED8F781755042F001AB263 /* PlateauRovers.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBED8F771755042F001AB263 /* PlateauRovers.1 */; };
+		EBED8F8517550441001AB263 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBED8F8417550441001AB263 /* SenTestingKit.framework */; };
+		EBED8F8717550441001AB263 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBED8F8617550441001AB263 /* Cocoa.framework */; };
+		EBED8F9117550441001AB263 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBED8F8F17550441001AB263 /* InfoPlist.strings */; };
+		EBED8F9417550441001AB263 /* PlateauRoversTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED8F9317550441001AB263 /* PlateauRoversTests.m */; };
+		EBED8F9D1755045A001AB263 /* PRRover.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED8F9C1755045A001AB263 /* PRRover.m */; };
+		EBED8FA01755072B001AB263 /* PRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED8F9F1755072B001AB263 /* PRConstants.m */; };
+		EBED8FA4175508DA001AB263 /* PRGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED8FA3175508DA001AB263 /* PRGeometry.m */; };
+		EBED8FA517550E59001AB263 /* PRRover.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED8F9C1755045A001AB263 /* PRRover.m */; };
+		EBED8FA617550E5D001AB263 /* PRGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED8FA3175508DA001AB263 /* PRGeometry.m */; };
+		EBED8FA917551512001AB263 /* PRParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED8FA817551512001AB263 /* PRParser.m */; };
+		EBED8FAA17551A99001AB263 /* PRParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED8FA817551512001AB263 /* PRParser.m */; };
+		EBED8FAB17551B65001AB263 /* PRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED8F9F1755072B001AB263 /* PRConstants.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBED8F991755044A001AB263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBED8F651755042F001AB263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBED8F6C1755042F001AB263;
+			remoteInfo = PlateauRovers;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EBED8F6B1755042F001AB263 /* CopyFiles */ = {
@@ -31,6 +53,25 @@
 		EBED8F731755042F001AB263 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBED8F761755042F001AB263 /* PlateauRovers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlateauRovers-Prefix.pch"; sourceTree = "<group>"; };
 		EBED8F771755042F001AB263 /* PlateauRovers.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PlateauRovers.1; sourceTree = "<group>"; };
+		EBED8F8317550441001AB263 /* PlateauRoversTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlateauRoversTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBED8F8417550441001AB263 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EBED8F8617550441001AB263 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		EBED8F8917550441001AB263 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EBED8F8A17550441001AB263 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EBED8F8B17550441001AB263 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBED8F8E17550441001AB263 /* PlateauRoversTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlateauRoversTests-Info.plist"; sourceTree = "<group>"; };
+		EBED8F9017550441001AB263 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBED8F9217550441001AB263 /* PlateauRoversTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlateauRoversTests.h; sourceTree = "<group>"; };
+		EBED8F9317550441001AB263 /* PlateauRoversTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlateauRoversTests.m; sourceTree = "<group>"; };
+		EBED8F9517550441001AB263 /* PlateauRoversTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlateauRoversTests-Prefix.pch"; sourceTree = "<group>"; };
+		EBED8F9B1755045A001AB263 /* PRRover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRRover.h; sourceTree = "<group>"; };
+		EBED8F9C1755045A001AB263 /* PRRover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRRover.m; sourceTree = "<group>"; };
+		EBED8F9E1755072B001AB263 /* PRConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRConstants.h; sourceTree = "<group>"; };
+		EBED8F9F1755072B001AB263 /* PRConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRConstants.m; sourceTree = "<group>"; };
+		EBED8FA2175508DA001AB263 /* PRGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRGeometry.h; sourceTree = "<group>"; };
+		EBED8FA3175508DA001AB263 /* PRGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRGeometry.m; sourceTree = "<group>"; };
+		EBED8FA717551512001AB263 /* PRParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRParser.h; sourceTree = "<group>"; };
+		EBED8FA817551512001AB263 /* PRParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +83,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBED8F7F17550441001AB263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBED8F8517550441001AB263 /* SenTestingKit.framework in Frameworks */,
+				EBED8F8717550441001AB263 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				EBED8F721755042F001AB263 /* PlateauRovers */,
+				EBED8F8C17550441001AB263 /* PlateauRoversTests */,
 				EBED8F6F1755042F001AB263 /* Frameworks */,
 				EBED8F6E1755042F001AB263 /* Products */,
 			);
@@ -58,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				EBED8F6D1755042F001AB263 /* PlateauRovers */,
+				EBED8F8317550441001AB263 /* PlateauRoversTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				EBED8F701755042F001AB263 /* Foundation.framework */,
+				EBED8F8417550441001AB263 /* SenTestingKit.framework */,
+				EBED8F8617550441001AB263 /* Cocoa.framework */,
+				EBED8F8817550441001AB263 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -75,6 +130,14 @@
 			children = (
 				EBED8F731755042F001AB263 /* main.m */,
 				EBED8F771755042F001AB263 /* PlateauRovers.1 */,
+				EBED8F9E1755072B001AB263 /* PRConstants.h */,
+				EBED8F9F1755072B001AB263 /* PRConstants.m */,
+				EBED8FA2175508DA001AB263 /* PRGeometry.h */,
+				EBED8FA3175508DA001AB263 /* PRGeometry.m */,
+				EBED8F9B1755045A001AB263 /* PRRover.h */,
+				EBED8F9C1755045A001AB263 /* PRRover.m */,
+				EBED8FA717551512001AB263 /* PRParser.h */,
+				EBED8FA817551512001AB263 /* PRParser.m */,
 				EBED8F751755042F001AB263 /* Supporting Files */,
 			);
 			path = PlateauRovers;
@@ -84,6 +147,36 @@
 			isa = PBXGroup;
 			children = (
 				EBED8F761755042F001AB263 /* PlateauRovers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBED8F8817550441001AB263 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBED8F8917550441001AB263 /* AppKit.framework */,
+				EBED8F8A17550441001AB263 /* CoreData.framework */,
+				EBED8F8B17550441001AB263 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EBED8F8C17550441001AB263 /* PlateauRoversTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBED8F9217550441001AB263 /* PlateauRoversTests.h */,
+				EBED8F9317550441001AB263 /* PlateauRoversTests.m */,
+				EBED8F8D17550441001AB263 /* Supporting Files */,
+			);
+			path = PlateauRoversTests;
+			sourceTree = "<group>";
+		};
+		EBED8F8D17550441001AB263 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBED8F8E17550441001AB263 /* PlateauRoversTests-Info.plist */,
+				EBED8F8F17550441001AB263 /* InfoPlist.strings */,
+				EBED8F9517550441001AB263 /* PlateauRoversTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +201,25 @@
 			productReference = EBED8F6D1755042F001AB263 /* PlateauRovers */;
 			productType = "com.apple.product-type.tool";
 		};
+		EBED8F8217550441001AB263 /* PlateauRoversTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBED8F9617550441001AB263 /* Build configuration list for PBXNativeTarget "PlateauRoversTests" */;
+			buildPhases = (
+				EBED8F7E17550441001AB263 /* Sources */,
+				EBED8F7F17550441001AB263 /* Frameworks */,
+				EBED8F8017550441001AB263 /* Resources */,
+				EBED8F8117550441001AB263 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBED8F9A1755044A001AB263 /* PBXTargetDependency */,
+			);
+			name = PlateauRoversTests;
+			productName = PlateauRoversTests;
+			productReference = EBED8F8317550441001AB263 /* PlateauRoversTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -130,9 +242,37 @@
 			projectRoot = "";
 			targets = (
 				EBED8F6C1755042F001AB263 /* PlateauRovers */,
+				EBED8F8217550441001AB263 /* PlateauRoversTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBED8F8017550441001AB263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBED8F9117550441001AB263 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EBED8F8117550441001AB263 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EBED8F691755042F001AB263 /* Sources */ = {
@@ -140,10 +280,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBED8F741755042F001AB263 /* main.m in Sources */,
+				EBED8F9D1755045A001AB263 /* PRRover.m in Sources */,
+				EBED8FA01755072B001AB263 /* PRConstants.m in Sources */,
+				EBED8FA4175508DA001AB263 /* PRGeometry.m in Sources */,
+				EBED8FA917551512001AB263 /* PRParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBED8F7E17550441001AB263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBED8FAB17551B65001AB263 /* PRConstants.m in Sources */,
+				EBED8FAA17551A99001AB263 /* PRParser.m in Sources */,
+				EBED8FA617550E5D001AB263 /* PRGeometry.m in Sources */,
+				EBED8FA517550E59001AB263 /* PRRover.m in Sources */,
+				EBED8F9417550441001AB263 /* PlateauRoversTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBED8F9A1755044A001AB263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBED8F6C1755042F001AB263 /* PlateauRovers */;
+			targetProxy = EBED8F991755044A001AB263 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBED8F8F17550441001AB263 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBED8F9017550441001AB263 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EBED8F791755042F001AB263 /* Debug */ = {
@@ -221,6 +396,32 @@
 			};
 			name = Release;
 		};
+		EBED8F9717550441001AB263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlateauRoversTests/PlateauRoversTests-Prefix.pch";
+				INFOPLIST_FILE = "PlateauRoversTests/PlateauRoversTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EBED8F9817550441001AB263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlateauRoversTests/PlateauRoversTests-Prefix.pch";
+				INFOPLIST_FILE = "PlateauRoversTests/PlateauRoversTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -238,6 +439,14 @@
 			buildConfigurations = (
 				EBED8F7C1755042F001AB263 /* Debug */,
 				EBED8F7D1755042F001AB263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBED8F9617550441001AB263 /* Build configuration list for PBXNativeTarget "PlateauRoversTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBED8F9717550441001AB263 /* Debug */,
+				EBED8F9817550441001AB263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
